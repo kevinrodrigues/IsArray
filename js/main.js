@@ -13,6 +13,10 @@ is_array(data); // true
 
 //better version..
 
-var is_array = function (value) {
+var is_arrayForSure = function (value) {
 	return console.log(value && typeof value === 'object' && typeof value.length === 'number' && typeof value.splice === 'function' && !(value.propertyIsEnumerable('length')));
 };
+
+
+is_arrayForSure(data);
+is_arrayForSure(obj);
