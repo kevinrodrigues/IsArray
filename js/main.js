@@ -18,5 +18,5 @@ var is_arrayForSure = function (value) {
 };
 
 
-is_arrayForSure(data);
-is_arrayForSure(obj);
+is_arrayForSure(obj);  // false
+is_arrayForSure(data);  // true
