@@ -1,5 +1,5 @@
 # IsArray
-Checks if a value is an array, by returning a boolean value. (Taken from the "Good Parts:Js")
+Checks if a value is an array, by returning a boolean value. (Taken from the "Good Parts:JS")
 
 Example 1:
 
